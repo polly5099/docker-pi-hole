@@ -1,0 +1,15 @@
+DHCP
+ip range
+192.168.0.5 - 192.168.0.251
+
+gateway
+192.168.0.1
+
+enable dhcpv4 rapid commit
+enable ipv5 support
+lease time 24h (could prolly be longer)
+
+
+group management -> adlists
+https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+
